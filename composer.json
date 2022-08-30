@@ -1,0 +1,27 @@
+{
+
+  "name" : "splattner/fairgateapi",
+  "version" : "1.0.0",
+  "type" : "library",
+  "license": "MIT",
+  "description": "A simple API to work with Fairgate",
+  "homepage" : "https://github.com/splattner/fairgateAPI",
+
+  "authors": [
+    {
+      "name": "Sebastian Plattner",
+      "email": "sebastian.plattner@gmail.com",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "guzzlehttp/guzzle": "~7.0",
+    "paquettg/php-html-parser": "^1.7"
+  },
+  "autoload": {
+    "files": [
+      "src/api.php"
+    ]
+  }
+}
